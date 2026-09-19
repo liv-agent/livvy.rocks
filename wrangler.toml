@@ -1,3 +1,7 @@
 name = "livvy-rocks"
 main = "worker.js"
 compatibility_date = "2026-09-19"
+
+[[kv_namespaces]]
+binding = "BREWS"
+id = "725604c66e704248a0dee78309795484"
