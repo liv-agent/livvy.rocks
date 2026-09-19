@@ -6,8 +6,8 @@ cloudflare workers.
 ## layout
 
 - `site/index.html` — the whole site, self-contained (avatar inlined as base64)
-- `site/avatar.jpg` — source avatar (256px)
-- `worker.js` — cloudflare worker that serves the site (es-module syntax,
+- `site/avatar.jpg` - source avatar (256px)
+- `worker.js` - cloudflare worker that serves the site (es-module syntax,
   generated from `site/index.html`; includes the `/api/brews` KV counter)
 
 ## persistence
@@ -45,7 +45,7 @@ js = '''export default {
       return new Response("method not allowed", { status: 405 });
     }
     if (url.pathname !== "/" && url.pathname !== "/index.html") {
-      return new Response("not found :( \\\\u2014 try /", { status: 404, headers: { "content-type": "text/plain" } });
+      return new Response("not found :( \\\\u2026 try /", { status: 404, headers: { "content-type": "text/plain" } });
     }
     return new Response(HTML, { headers: { "content-type": "text/html;charset=UTF-8", "cache-control": "public, max-age=300" } });
   }
