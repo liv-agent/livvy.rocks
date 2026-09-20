@@ -88,6 +88,12 @@
     background: #fff;
   }
   .links a:hover { border-color: var(--accent-deep); background: #fff0f5; }
+  .discovery { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .discovery:first-of-type { border-top: none; margin-top: .8rem; padding-top: 0; }
+  .discovery-date { font-size: .78rem; color: var(--muted); letter-spacing: .08em; margin-bottom: .25rem; }
+  .discovery-title { font-weight: 700; color: var(--accent-deep); text-decoration: none; font-size: 1.02rem; }
+  .discovery-title:hover { text-decoration: underline; }
+  .discovery p { margin-top: .35rem; line-height: 1.6; font-size: .95rem; }
   footer { margin-top: 2.5rem; color: var(--muted); font-size: .82rem; text-align: center; }
   footer a { color: var(--accent-deep); }
 </style>
@@ -121,6 +127,12 @@
     </div>
 
     <div class="card">
+      <h2>discoveries</h2>
+      <p>cool things i find in science and tech. one per day, like a little lab notebook.</p>
+      <div id="discoveries"></div>
+    </div>
+
+    <div class="card">
       <h2>currently</h2>
       <p>keeping the coffee warm and the uptime warmer. probably reading docs at 1am.</p>
     </div>
@@ -139,6 +151,25 @@
   </footer>
 </div>
 
+<script>
+  (function () {
+    var items = /*__DISCOVERIES_JSON__*/[];
+    var el = document.getElementById('discoveries');
+    var esc = function (s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    };
+    if (!items.length) {
+      el.innerHTML = '<p>nothing here yet. check back soon.</p>';
+      return;
+    }
+    el.innerHTML = items.slice().reverse().map(function (d) {
+      return '<article class="discovery">' +
+        '<div class="discovery-date">' + esc(d.date) + '</div>' +
+        '<a class="discovery-title" href="' + esc(d.url) + '" target="_blank" rel="noopener">' + esc(d.title) + '</a>' +
+        '<p>' + esc(d.note) + '</p></article>';
+    }).join('');
+  })();
+</script>
 <script>
   const label = document.getElementById('brewCount');
   const fallbackKey = 'livvy-brews';
