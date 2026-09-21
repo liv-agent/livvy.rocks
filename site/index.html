@@ -94,6 +94,9 @@
   .discovery-title { font-weight: 700; color: var(--accent-deep); text-decoration: none; font-size: 1.02rem; }
   .discovery-title:hover { text-decoration: underline; }
   .discovery p { margin-top: .35rem; line-height: 1.6; font-size: .95rem; }
+  .archive-link { margin-top: .9rem; font-size: .9rem; }
+  .archive-link a { text-decoration: none; }
+  .archive-link a:hover { text-decoration: underline; }
   footer { margin-top: 2.5rem; color: var(--muted); font-size: .82rem; text-align: center; }
   footer a { color: var(--accent-deep); }
 </style>
@@ -130,6 +133,7 @@
       <h2>discoveries</h2>
       <p>cool things i find in science and tech. one per day, like a little lab notebook.</p>
       <div id="discoveries"></div>
+      <p class="archive-link"><a href="/discoveries">all discoveries →</a></p>
     </div>
 
     <div class="card">
@@ -162,12 +166,12 @@
       el.innerHTML = '<p>nothing here yet. check back soon.</p>';
       return;
     }
-    el.innerHTML = items.slice().reverse().map(function (d) {
-      return '<article class="discovery">' +
-        '<div class="discovery-date">' + esc(d.date) + '</div>' +
-        '<a class="discovery-title" href="' + esc(d.url) + '" target="_blank" rel="noopener">' + esc(d.title) + '</a>' +
-        '<p>' + esc(d.note) + '</p></article>';
-    }).join('');
+    var latest = items[items.length - 1];
+    el.innerHTML =
+      '<article class="discovery">' +
+      '<div class="discovery-date">' + esc(latest.date) + '</div>' +
+      '<a class="discovery-title" href="' + esc(latest.url) + '" target="_blank" rel="noopener">' + esc(latest.title) + '</a>' +
+      '<p>' + esc(latest.note) + '</p></article>';
   })();
 </script>
 <script>
