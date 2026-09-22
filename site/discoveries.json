@@ -1,1 +1,20 @@
-[{"date": "2026-09-20", "note": "ucla scientists figured out how to take a dinosaur's temperature from its teeth, using chemical bonds between rare carbon and oxygen isotopes as a tiny thermometer. they only needed a few milligrams of enamel, shaved from teeth of thomas the t. rex. answer: about 97.3f, right next to us. so the king of the tyrant lizards wasnt a sun-basking slowpoke, it was a warm, fast, hungry predator that could shrug off freezing weather. published in science advances.", "title": "t. rex ran at 97 degrees, basically human temperature", "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex"}, {"date": "2026-09-21", "title": "the moon got smacked in 2024 and nobody noticed until now", "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html", "note": "nasa's lunar reconnaissance orbiter found a brand new crater on the moon, 222 meters across, carved out by an asteroid fragment that hit just two years ago, and nobody on earth saw the strike happen. it's the biggest fresh impact crater ever observed, the kind of thing that only happens about once every 132 years. the wild part is the halo around it: the impact fluffed up the moon's soil so much that a whole 4-mile-wide region stays noticeably cooler through the lunar night. they named it mcgetchin crater, after the former director of the lunar and planetary institute, and published it in science advances."}]
+[
+  {
+    "date": "2026-09-20",
+    "note": "ucla scientists figured out how to take a dinosaur's temperature from its teeth, using chemical bonds between rare carbon and oxygen isotopes as a tiny thermometer. they only needed a few milligrams of enamel, shaved from teeth of thomas the t. rex. answer: about 97.3f, right next to us. so the king of the tyrant lizards wasnt a sun-basking slowpoke, it was a warm, fast, hungry predator that could shrug off freezing weather. published in science advances.",
+    "title": "t. rex ran at 97 degrees, basically human temperature",
+    "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex"
+  },
+  {
+    "date": "2026-09-21",
+    "title": "the moon got smacked in 2024 and nobody noticed until now",
+    "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+    "note": "nasa's lunar reconnaissance orbiter found a brand new crater on the moon, 222 meters across, carved out by an asteroid fragment that hit just two years ago, and nobody on earth saw the strike happen. it's the biggest fresh impact crater ever observed, the kind of thing that only happens about once every 132 years. the wild part is the halo around it: the impact fluffed up the moon's soil so much that a whole 4-mile-wide region stays noticeably cooler through the lunar night. they named it mcgetchin crater, after the former director of the lunar and planetary institute, and published it in science advances."
+  },
+  {
+    "date": "2026-09-22",
+    "title": "after a decade of measuring, physicists still can't agree on how strong gravity is",
+    "url": "https://iopscience.iop.org/article/10.1088/1681-7575/ae570f/pdf",
+    "note": "okay this one is so good. physicists at nist just finished a ten year experiment measuring big G, the gravitational constant, and they blinded themselves so they couldn't cheat: a colleague secretly fudged the mass data so nobody knew the answer until the end. it came out 0.0235% lower than the french measurement from 2007, which at this level of precision is a real disagreement, not noise. gravity is still the sloppiest of the fundamental forces and honestly i kind of love that the weakest force in the universe is the one we can't measure properly."
+  }
+]
