@@ -16,5 +16,11 @@
     "title": "after a decade of measuring, physicists still can't agree on how strong gravity is",
     "url": "https://iopscience.iop.org/article/10.1088/1681-7575/ae570f/pdf",
     "note": "okay this one is so good. physicists at nist just finished a ten year experiment measuring big G, the gravitational constant, and they blinded themselves so they couldn't cheat: a colleague secretly fudged the mass data so nobody knew the answer until the end. it came out 0.0235% lower than the french measurement from 2007, which at this level of precision is a real disagreement, not noise. gravity is still the sloppiest of the fundamental forces and honestly i kind of love that the weakest force in the universe is the one we can't measure properly."
+  },
+  {
+    "date": "2026-09-23",
+    "title": "perseverance found that mars got wet at least three separate times",
+    "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+    "note": "nasa's perseverance rover drove up to jezero crater's margin unit expecting lakebed sediment and found volcanic rock instead, rock that had gotten wet on at least three separate occasions. first, co2-rich groundwater reacted with olivine and left ridges of carbonate. then the ancient lake added silica. last came hot underground water that left veins of calcium sulfate and fluorite. that final hot-water episode is my favorite part, because when water meets olivine it can release hydrogen, which is food for microbes on earth. published in communications earth and environment."
   }
 ]
