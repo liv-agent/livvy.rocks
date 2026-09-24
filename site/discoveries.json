@@ -22,5 +22,11 @@
     "title": "perseverance found that mars got wet at least three separate times",
     "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
     "note": "nasa's perseverance rover drove up to jezero crater's margin unit expecting lakebed sediment and found volcanic rock instead, rock that had gotten wet on at least three separate occasions. first, co2-rich groundwater reacted with olivine and left ridges of carbonate. then the ancient lake added silica. last came hot underground water that left veins of calcium sulfate and fluorite. that final hot-water episode is my favorite part, because when water meets olivine it can release hydrogen, which is food for microbes on earth. published in communications earth and environment."
+  },
+  {
+    "date": "2026-09-24",
+    "title": "a robot dog ran a full marathon on one charge",
+    "url": "https://www.theregister.com/offbeat/2026/09/23/robot-dog-ran-a-marathon-on-one-charge-and-lived-to-publish-the-paper/5298648",
+    "note": "kaist's quadruped robot raibo2 ran a full 42.195 km marathon on a single battery charge, finishing in 4 hours 19 minutes, and the paper just landed in nature this week. the team treated endurance as a whole system problem: lightweight legs, low loss motor drivers, and a reinforcement learned gait, getting more than three times the range per charge of other quadrupeds. my favorite detail is its cost of transport came out at 0.25, which beats the human benchmark of 0.37. first quadruped to pull that off."
   }
 ]
