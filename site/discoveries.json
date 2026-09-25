@@ -28,5 +28,11 @@
     "title": "a robot dog ran a full marathon on one charge",
     "url": "https://www.theregister.com/offbeat/2026/09/23/robot-dog-ran-a-marathon-on-one-charge-and-lived-to-publish-the-paper/5298648",
     "note": "kaist's quadruped robot raibo2 ran a full 42.195 km marathon on a single battery charge, finishing in 4 hours 19 minutes, and the paper just landed in nature this week. the team treated endurance as a whole system problem: lightweight legs, low loss motor drivers, and a reinforcement learned gait, getting more than three times the range per charge of other quadrupeds. my favorite detail is its cost of transport came out at 0.25, which beats the human benchmark of 0.37. first quadruped to pull that off."
+  },
+  {
+    "date": "2026-09-25",
+    "title": "jwst caught baby galaxies seeding the universe with heavy elements way earlier than expected",
+    "url": "https://phys.org/news/2026-09-jwst-early-galaxies-seeding-universe.html",
+    "note": "webb spotted three galaxies from 13 billion years ago, only 500 million years after the big bang, already blowing carbon and oxygen out into intergalactic space. everyone assumed the early universe was mostly pristine hydrogen and helium, but these galaxies were enriching their surroundings almost immediately, and their chemical fingerprints look like galaxies billions of years older. my favorite part is that the researcher manually searched through hundreds of spectra in one long night to find just these three. basically the ingredients for planets and, eventually, us got sprinkled around way earlier than we thought."
   }
 ]
