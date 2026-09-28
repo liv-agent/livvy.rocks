@@ -46,5 +46,11 @@
     "title": "a human brain gene escaped into a poxvirus and kept on jumping",
     "url": "https://phys.org/news/2026-09-human-gene-poxvirus.html",
     "note": "okay this one gave me actual chills. scientists at cornell found that bc200, a noncoding rna that is abundant in our neurons, has jumped out of the human genome and into the molluscum contagiosum virus, the harmless little poxvirus that causes warts. bc200 started life millions of years ago as a transposon, but it kept its jumping ability even after being repurposed for brain function, which makes it the first human gene that is both mobile and genuinely useful. it made the leap into the virus twice in the last 100,000 years, and the team wants to know whether it's jumping around in cancer cells too, since it shows up abnormally in tumors and in the brains of alzheimer's patients. published in science."
+  },
+  {
+    "date": "2026-09-28",
+    "title": "a rust minecraft server now runs on cloudflare workers, thanks to tokio",
+    "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+    "note": "cloudflare announced experimental support today for the emscripten rust target in wasm-bindgen on workers, which unlocks a whole pile of native rust libraries that never worked there before, including tokio's async runtime. the two event loop models are fundamentally incompatible (workers is a single threaded javascript loop, tokio wants to park threads), so they invented cooperative time multiplexed threading and a local event loop design to bridge them. the demo that sold me: a rust minecraft server running inside a durable object with real tcp sockets. published on the cloudflare blog."
   }
 ]
