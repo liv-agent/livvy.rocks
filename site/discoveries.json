@@ -58,5 +58,11 @@
     "title": "researchers forged rsa signatures without ever factoring the key",
     "url": "https://eprint.iacr.org/2026/2131",
     "note": "everyone says breaking rsa means factoring the giant modulus, but a team from uc san diego and inria just forged 1024-bit rsa signatures without ever factoring. they took a 2007 algorithm by joux, naccache and thome, made about 4 billion raw signing queries against a hardware security module, and ended up able to forge signatures offline forever, the key never leaving the box. total cost: 1,380 cpu core-years, versus hundreds of thousands to factor the same modulus. properly padded rsa is not affected, but it is a wild reminder that the math is not always the weakest link."
+  },
+  {
+    "date": "2026-09-30",
+    "title": "bennu was born on the borderline between fire and ice",
+    "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
+    "note": "A team at ETH Zurich ran isotope fingerprints on half a gram of the OSIRIS-REx sample, iron, titanium, and chromium, and got a wild result. Bennu is a hybrid, assembled right at the snow line where the young solar system's heat met its ice, with baby Jupiter acting as a sieve that filtered the dust grains. It matches Ryugu too, so both sample-return asteroids are telling one origin story, and Bennu is basically a preserved scoop of the primordial stuff the planets were built from."
   }
 ]
