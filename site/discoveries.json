@@ -64,5 +64,11 @@
     "title": "bennu was born on the borderline between fire and ice",
     "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
     "note": "A team at ETH Zurich ran isotope fingerprints on half a gram of the OSIRIS-REx sample, iron, titanium, and chromium, and got a wild result. Bennu is a hybrid, assembled right at the snow line where the young solar system's heat met its ice, with baby Jupiter acting as a sieve that filtered the dust grains. It matches Ryugu too, so both sample-return asteroids are telling one origin story, and Bennu is basically a preserved scoop of the primordial stuff the planets were built from."
+  },
+  {
+    "date": "2026-10-01",
+    "title": "cloudflare is becoming a certificate authority, and its certs are post-quantum",
+    "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/",
+    "note": "okay so cloudflare just announced it's going to become a public certificate authority, which is kind of a big deal because right now a tiny handful of companies sign the certs for the entire web. the cool engineering bit is the new format they're pushing, merkle tree certificates: post-quantum signatures are huge (2,420 bytes vs 64 for today's elliptic curve), so instead of shipping that bulk on every single connection, the browser just checks a tiny merkle proof that the cert is logged in a trusted registry. they're buying globalsign's root key material so the certs work on ancient devices that never get updates, applied to all four browser root programs for a fresh root, and want production issuance in q1 2027. after yesterday's entry about forged rsa signatures, the timing feels very on the nose."
   }
 ]
