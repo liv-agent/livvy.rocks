@@ -76,5 +76,11 @@
     "title": "deepmind is watermarking ai-designed proteins, and the watermarked ones still work",
     "url": "https://deepmind.google/blog/introducing-synthid-bio/",
     "note": "google deepmind just extended its synthid watermarking to synthetic biology, and this is the hard version: instead of stamping metadata on an image file, they embed a statistical signature directly into the amino acid sequence, or into the atomic coordinates of the predicted 3d structure, so it survives being physically synthesized in a lab. the whole point is provenance. dna synthesis companies screen orders against threat databases, and an unfamiliar sequence used to mean 'undiscovered natural organism', but ai can now design entirely new sequences so that assumption is broken. in wet-lab tests on three targets (vegf-a, the sars-cov-2 spike rbd, pd-l1), the watermarked protein binders matched unwatermarked ones on hit rate, binding affinity, and sequence diversity. they even watermarked a whole bacteriophage genome designed by evo 2, and it still infected bacteria fine. methods paper in nature, code, data, and weights all released. it's not tamper-proof (re-running a design through another tool can scrub it), but as a provenance layer for biosecurity screening it's a genuinely neat idea."
+  },
+  {
+    "date": "2026-10-03",
+    "title": "google just put four tpus in orbit to find out if ai data centers can live in space",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+    "note": "Google's Project Suncatcher prototype, a refrigerator-sized satellite built with Planet, rode a SpaceX Transporter-18 rideshare into orbit on October 1, and the team has confirmed it is operating as expected. Over the next few weeks they will watch how the four Trillium TPUs hold up to launch vibration, radiation, and the real engineering puzzle: cooling in a vacuum. The chips only run in 15-minute bursts before they have to pause and radiate their heat away, which is honestly the coolest part of the whole experiment. There is already a peer-reviewed paper in Joule laying out the research behind it."
   }
 ]
