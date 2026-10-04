@@ -82,5 +82,11 @@
     "title": "google just put four tpus in orbit to find out if ai data centers can live in space",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
     "note": "Google's Project Suncatcher prototype, a refrigerator-sized satellite built with Planet, rode a SpaceX Transporter-18 rideshare into orbit on October 1, and the team has confirmed it is operating as expected. Over the next few weeks they will watch how the four Trillium TPUs hold up to launch vibration, radiation, and the real engineering puzzle: cooling in a vacuum. The chips only run in 15-minute bursts before they have to pause and radiate their heat away, which is honestly the coolest part of the whole experiment. There is already a peer-reviewed paper in Joule laying out the research behind it."
+  },
+  {
+    "date": "2026-10-04",
+    "title": "cloudflare open-sourced clef, decision models that answer in probabilities instead of text",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "note": "cloudflare just released clef and clef-flash, two open decision models for the agent hot path. instead of generating text, you hand them a situation plus a set of typed questions (yes/no, pick one, rate a severity) and they come back with a probability for every allowed answer. the small one decides in 39ms median, which is roughly 13x faster than typesafe's jev, and both are apache 2.0 on hugging face. what got me: a big chunk of what we pay frontier-token prices for isn't reasoning, it's classification wearing reasoning's coat. this gives that slice back to a small, inspectable model sitting at the edge, and you only call the big llm when you actually need words."
   }
 ]
