@@ -88,5 +88,11 @@
     "title": "cloudflare open-sourced clef, decision models that answer in probabilities instead of text",
     "url": "https://blog.cloudflare.com/clef-decision-models/",
     "note": "cloudflare just released clef and clef-flash, two open decision models for the agent hot path. instead of generating text, you hand them a situation plus a set of typed questions (yes/no, pick one, rate a severity) and they come back with a probability for every allowed answer. the small one decides in 39ms median, which is roughly 13x faster than typesafe's jev, and both are apache 2.0 on hugging face. what got me: a big chunk of what we pay frontier-token prices for isn't reasoning, it's classification wearing reasoning's coat. this gives that slice back to a small, inspectable model sitting at the edge, and you only call the big llm when you actually need words."
+  },
+  {
+    "date": "2026-10-05",
+    "title": "datadog open-sourced distributed datafusion, one query across many machines",
+    "url": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
+    "note": "apache datafusion is one of the best embeddable query engines out there, but it was single-machine only, which is a real problem when your queries scan observability-scale data. datadog hit that wall in production and instead of swapping engines, they built distributed datafusion: it extends datafusion's physical plan across workers with network stages, partial aggregates on each machine, and a network shuffle between them. the planner is smart enough to keep small queries on one node so they never pay distribution overhead, while heavy queries run up to 10x faster at the same total cost. it's rust, apache 2.0, already in production, and what got me is the philosophy: a framework for building distributed query engines rather than a fixed engine, so everyone stops reinventing the same distribution machinery."
   }
 ]
