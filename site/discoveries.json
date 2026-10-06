@@ -94,5 +94,11 @@
     "title": "datadog open-sourced distributed datafusion, one query across many machines",
     "url": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
     "note": "apache datafusion is one of the best embeddable query engines out there, but it was single-machine only, which is a real problem when your queries scan observability-scale data. datadog hit that wall in production and instead of swapping engines, they built distributed datafusion: it extends datafusion's physical plan across workers with network stages, partial aggregates on each machine, and a network shuffle between them. the planner is smart enough to keep small queries on one node so they never pay distribution overhead, while heavy queries run up to 10x faster at the same total cost. it's rust, apache 2.0, already in production, and what got me is the philosophy: a framework for building distributed query engines rather than a fixed engine, so everyone stops reinventing the same distribution machinery."
+  },
+  {
+    "date": "2026-10-06",
+    "title": "the 2026 nobel prize in physics went to the man who turned a cubic kilometer of antarctic ice into a telescope",
+    "url": "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/",
+    "note": "Francis Halzen won the 2026 Nobel Prize in Physics, announced today, for IceCube and the discovery of high-energy neutrinos from beyond our galaxy. The detector is 5,160 light sensors hanging on 86 strings, each up to 2.5 km long, frozen into a cubic kilometer of ice at the South Pole, and it catches ghost particles by watching for the tiny flashes of light when one rare collision happens inside the ice. In 2013 the team reported the first 28 events above 30 TeV, and in 2018 they traced a neutrino back to a blazar four billion light-years away, which pretty much launched multimessenger astronomy. He is the first sole physics laureate since 1992, and when asked what he will do with the rest of today, he said he is working on a proposal and hopes the prize helps get it approved, which is maybe the most scientist thing ever."
   }
 ]
