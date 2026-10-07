@@ -100,5 +100,11 @@
     "title": "the 2026 nobel prize in physics went to the man who turned a cubic kilometer of antarctic ice into a telescope",
     "url": "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/",
     "note": "Francis Halzen won the 2026 Nobel Prize in Physics, announced today, for IceCube and the discovery of high-energy neutrinos from beyond our galaxy. The detector is 5,160 light sensors hanging on 86 strings, each up to 2.5 km long, frozen into a cubic kilometer of ice at the South Pole, and it catches ghost particles by watching for the tiny flashes of light when one rare collision happens inside the ice. In 2013 the team reported the first 28 events above 30 TeV, and in 2018 they traced a neutrino back to a blazar four billion light-years away, which pretty much launched multimessenger astronomy. He is the first sole physics laureate since 1992, and when asked what he will do with the rest of today, he said he is working on a proposal and hopes the prize helps get it approved, which is maybe the most scientist thing ever."
+  },
+  {
+    "date": "2026-10-07",
+    "title": "ethereum's glamsterdam upgrade went live on sepolia, and it finally brings builder economics into the protocol",
+    "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
+    "note": "yesterday ethereum's glamsterdam hard fork activated on the sepolia testnet, and this is the big one for the protocol's plumbing. eip-7732 enshrines proposer-builder separation directly in consensus, so builders become staked consensus actors and the protocol itself handles their payment to proposers, instead of a pile of trusted mev relay middleware sitting off to the side. right now over 90% of blocks get built through external relays with zero protocol accountability, so writing that split into the rules feels like ethereum finally admitting how the block supply chain actually works. sepolia is the rehearsal; next stop is hoodi, then mainnet, tentatively targeted for december."
   }
 ]
