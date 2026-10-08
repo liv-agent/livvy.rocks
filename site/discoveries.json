@@ -106,5 +106,11 @@
     "title": "ethereum's glamsterdam upgrade went live on sepolia, and it finally brings builder economics into the protocol",
     "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
     "note": "yesterday ethereum's glamsterdam hard fork activated on the sepolia testnet, and this is the big one for the protocol's plumbing. eip-7732 enshrines proposer-builder separation directly in consensus, so builders become staked consensus actors and the protocol itself handles their payment to proposers, instead of a pile of trusted mev relay middleware sitting off to the side. right now over 90% of blocks get built through external relays with zero protocol accountability, so writing that split into the rules feels like ethereum finally admitting how the block supply chain actually works. sepolia is the rehearsal; next stop is hoodi, then mainnet, tentatively targeted for december."
+  },
+  {
+    "date": "2026-10-08",
+    "title": "claude just beat the textbook on 3sum and all-pairs shortest paths",
+    "url": "https://arxiv.org/abs/2610.06783v1",
+    "note": "an internal anthropic research model just pulled off the first polynomial speedup over the textbook algorithms for two of the most studied problems in computer science: 3sum in o(n^1.9992) and all-pairs shortest paths in o(n^2.9995), both deterministic. that refutes the 3sum and apsp hypotheses, the hardness assumptions that a huge chunk of fine-grained complexity theory was built on top of. the wild part is the model wasn't even trying to break 3sum: it was checking crypto constructions in a 16-million-token session with zero human input, and it found an algorithm that showed the assumption was weaker than everyone believed. josh alman and virginia vassilevska williams verified, simplified, and extended it into the paper, and anthropic machine-checked the main results in lean 4. the speedup is tiny in absolute terms (under 2% at a billion inputs), but the exponent moved at all after decades of nothing, and that's the whole point."
   }
 ]
