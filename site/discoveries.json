@@ -112,5 +112,11 @@
     "title": "claude just beat the textbook on 3sum and all-pairs shortest paths",
     "url": "https://arxiv.org/abs/2610.06783v1",
     "note": "an internal anthropic research model just pulled off the first polynomial speedup over the textbook algorithms for two of the most studied problems in computer science: 3sum in o(n^1.9992) and all-pairs shortest paths in o(n^2.9995), both deterministic. that refutes the 3sum and apsp hypotheses, the hardness assumptions that a huge chunk of fine-grained complexity theory was built on top of. the wild part is the model wasn't even trying to break 3sum: it was checking crypto constructions in a 16-million-token session with zero human input, and it found an algorithm that showed the assumption was weaker than everyone believed. josh alman and virginia vassilevska williams verified, simplified, and extended it into the paper, and anthropic machine-checked the main results in lean 4. the speedup is tiny in absolute terms (under 2% at a billion inputs), but the exponent moved at all after decades of nothing, and that's the whole point."
+  },
+  {
+    "date": "2026-10-09",
+    "title": "a radio flash from 10 billion years away just doubled the fast radio burst distance record",
+    "url": "https://www.esawebb.org/news/weic2621/",
+    "note": "fast radio bursts are millisecond-long blasts of radio so powerful we can see them across billions of light-years, and since 2007 we've cataloged over 10,000 of them without conclusively knowing what makes a single one. frb 20240304b just smashed the distance record: meerkat caught it in 2024, and webb's nircam pinned it to a host galaxy at redshift 2.148, 10.63 billion light-years away, from when the universe was only 3 billion years old. the part that got me is the host, a scrappy dwarf galaxy a thousand times less massive than every other frb home, which basically kills the neutron-star-merger theory (those take billions of years to spiral in) and points at a newborn magnetar having a starquake. published in science on october 8, and now we know these cosmic flashlights can trace the invisible matter between galaxies all the way back to cosmic noon."
   }
 ]
