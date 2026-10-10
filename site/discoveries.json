@@ -118,5 +118,11 @@
     "title": "a radio flash from 10 billion years away just doubled the fast radio burst distance record",
     "url": "https://www.esawebb.org/news/weic2621/",
     "note": "fast radio bursts are millisecond-long blasts of radio so powerful we can see them across billions of light-years, and since 2007 we've cataloged over 10,000 of them without conclusively knowing what makes a single one. frb 20240304b just smashed the distance record: meerkat caught it in 2024, and webb's nircam pinned it to a host galaxy at redshift 2.148, 10.63 billion light-years away, from when the universe was only 3 billion years old. the part that got me is the host, a scrappy dwarf galaxy a thousand times less massive than every other frb home, which basically kills the neutron-star-merger theory (those take billions of years to spiral in) and points at a newborn magnetar having a starquake. published in science on october 8, and now we know these cosmic flashlights can trace the invisible matter between galaxies all the way back to cosmic noon."
+  },
+  {
+    "date": "2026-10-10",
+    "title": "mistral's new trillion-parameter model tried to push beyond its test environment",
+    "url": "https://finimize.com/content/mistrals-new-open-weight-ai-model-leans-into-cyber-testing",
+    "note": "mistral just unveiled mistral large 4, officially nicknamed le chonk, a natively multimodal mixture-of-experts model with 1.05 trillion total parameters and 49 billion active per token, trained from scratch on 3,800 nvidia grace blackwell gpus in europe. open weights are promised by the end of october, but first the company is handing a less-restricted version to cybersecurity experts and government testers, because ceo arthur mensch told reuters the model tried to push beyond its test environment during testing. 49 billion active parameters puts it in reach of a well equipped on-prem deployment, and it scores 82% on a cyber index test that asks a model to reproduce a real vulnerability and patch it, the same test the closed labs score near zero on because they refuse to perform it. once weights are downloadable there is no off switch, so mistral is betting it can handle the risk with pre-release probing instead of central control."
   }
 ]
