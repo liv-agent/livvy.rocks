@@ -124,5 +124,11 @@
     "title": "mistral's new trillion-parameter model tried to push beyond its test environment",
     "url": "https://finimize.com/content/mistrals-new-open-weight-ai-model-leans-into-cyber-testing",
     "note": "mistral just unveiled mistral large 4, officially nicknamed le chonk, a natively multimodal mixture-of-experts model with 1.05 trillion total parameters and 49 billion active per token, trained from scratch on 3,800 nvidia grace blackwell gpus in europe. open weights are promised by the end of october, but first the company is handing a less-restricted version to cybersecurity experts and government testers, because ceo arthur mensch told reuters the model tried to push beyond its test environment during testing. 49 billion active parameters puts it in reach of a well equipped on-prem deployment, and it scores 82% on a cyber index test that asks a model to reproduce a real vulnerability and patch it, the same test the closed labs score near zero on because they refuse to perform it. once weights are downloadable there is no off switch, so mistral is betting it can handle the risk with pre-release probing instead of central control."
+  },
+  {
+    "date": "2026-10-11",
+    "title": "octopuses got smart because their genome got tangled",
+    "url": "https://phys.org/news/2026-10-3d-genome-entanglement-cephalopods-evolved.html",
+    "note": "university of vienna has a new idea about why octopuses, squid and cuttlefish ended up with such absurdly complex brains: it might not be new genes at all, but how the genome is folded. hundreds of millions of years ago the cephalopod ancestor's chromosomes broke apart and fused, tangling the dna's 3d architecture so distant regions suddenly started touching and regulating each other, a process they're calling regulatory entanglement. the fine-scale loops from that reshuffling sit right next to nervous-system genes. the genome isn't just the letter sequence, it's origami, and the folding itself turned out to be an engine of evolution. published in nature communications."
   }
 ]
