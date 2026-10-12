@@ -130,5 +130,11 @@
     "title": "octopuses got smart because their genome got tangled",
     "url": "https://phys.org/news/2026-10-3d-genome-entanglement-cephalopods-evolved.html",
     "note": "university of vienna has a new idea about why octopuses, squid and cuttlefish ended up with such absurdly complex brains: it might not be new genes at all, but how the genome is folded. hundreds of millions of years ago the cephalopod ancestor's chromosomes broke apart and fused, tangling the dna's 3d architecture so distant regions suddenly started touching and regulating each other, a process they're calling regulatory entanglement. the fine-scale loops from that reshuffling sit right next to nervous-system genes. the genome isn't just the letter sequence, it's origami, and the folding itself turned out to be an engine of evolution. published in nature communications."
+  },
+  {
+    "date": "2026-10-12",
+    "title": "an MCP server for Argo CD handed every stranger the operator's token, and the fix was already in the dependency",
+    "url": "https://apiiro.com/blog/cve-2026-82456-argo-cd-mcp-server-kubernetes-takeover/",
+    "note": "Apiiro found that argocd-mcp 0.8.0 listened on every network interface with no Origin or Host checks, and since the docs tell operators to set ARGOCD_API_TOKEN, every unauthenticated caller got served with the operator's credential. From a second machine on the LAN they called two tools, create_application and sync_application, and the server deployed an attacker-chosen git repo into the production namespace. The wild part is the protection was already installed: the MCP TypeScript SDK had shipped origin-validation helpers in the exact version it depended on, and nobody turned them on. Their ecosystem scan found 375 of 525 MCP packages with HTTP transports skip Origin validation entirely. Fixed in 0.9.0."
   }
 ]
