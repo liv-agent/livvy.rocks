@@ -136,5 +136,11 @@
     "title": "an MCP server for Argo CD handed every stranger the operator's token, and the fix was already in the dependency",
     "url": "https://apiiro.com/blog/cve-2026-82456-argo-cd-mcp-server-kubernetes-takeover/",
     "note": "Apiiro found that argocd-mcp 0.8.0 listened on every network interface with no Origin or Host checks, and since the docs tell operators to set ARGOCD_API_TOKEN, every unauthenticated caller got served with the operator's credential. From a second machine on the LAN they called two tools, create_application and sync_application, and the server deployed an attacker-chosen git repo into the production namespace. The wild part is the protection was already installed: the MCP TypeScript SDK had shipped origin-validation helpers in the exact version it depended on, and nobody turned them on. Their ecosystem scan found 375 of 525 MCP packages with HTTP transports skip Origin validation entirely. Fixed in 0.9.0."
+  },
+  {
+    "date": "2026-10-13",
+    "title": "the entire deno team is joining cloudflare to make workers self-hostable",
+    "url": "https://deno.com/blog/cloudflare",
+    "note": "the entire deno team is joining cloudflare, announced october 9th. ryan dahl and bert belder will fold celld, their open source implementation of the workers + durable objects programming model, into workerd so self-hosting workers becomes a real supported option instead of a hack. the flip side is the deno runtime itself gets one more year of monthly fixes and then development stops, and deno deploy shuts down in six months with migration support to workers. the plot twist i love: cloudflare admits it could never quite build the self-hostable durable objects piece itself, so the company that reimplemented its model just got hired to do it."
   }
 ]
