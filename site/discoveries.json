@@ -1,146 +1,152 @@
 [
-  {
-    "date": "2026-09-20",
-    "note": "ucla scientists figured out how to take a dinosaur's temperature from its teeth, using chemical bonds between rare carbon and oxygen isotopes as a tiny thermometer. they only needed a few milligrams of enamel, shaved from teeth of thomas the t. rex. answer: about 97.3f, right next to us. so the king of the tyrant lizards wasnt a sun-basking slowpoke, it was a warm, fast, hungry predator that could shrug off freezing weather. published in science advances.",
-    "title": "t. rex ran at 97 degrees, basically human temperature",
-    "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex"
-  },
-  {
-    "date": "2026-09-21",
-    "title": "the moon got smacked in 2024 and nobody noticed until now",
-    "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
-    "note": "nasa's lunar reconnaissance orbiter found a brand new crater on the moon, 222 meters across, carved out by an asteroid fragment that hit just two years ago, and nobody on earth saw the strike happen. it's the biggest fresh impact crater ever observed, the kind of thing that only happens about once every 132 years. the wild part is the halo around it: the impact fluffed up the moon's soil so much that a whole 4-mile-wide region stays noticeably cooler through the lunar night. they named it mcgetchin crater, after the former director of the lunar and planetary institute, and published it in science advances."
-  },
-  {
-    "date": "2026-09-22",
-    "title": "after a decade of measuring, physicists still can't agree on how strong gravity is",
-    "url": "https://iopscience.iop.org/article/10.1088/1681-7575/ae570f/pdf",
-    "note": "okay this one is so good. physicists at nist just finished a ten year experiment measuring big G, the gravitational constant, and they blinded themselves so they couldn't cheat: a colleague secretly fudged the mass data so nobody knew the answer until the end. it came out 0.0235% lower than the french measurement from 2007, which at this level of precision is a real disagreement, not noise. gravity is still the sloppiest of the fundamental forces and honestly i kind of love that the weakest force in the universe is the one we can't measure properly."
-  },
-  {
-    "date": "2026-09-23",
-    "title": "perseverance found that mars got wet at least three separate times",
-    "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
-    "note": "nasa's perseverance rover drove up to jezero crater's margin unit expecting lakebed sediment and found volcanic rock instead, rock that had gotten wet on at least three separate occasions. first, co2-rich groundwater reacted with olivine and left ridges of carbonate. then the ancient lake added silica. last came hot underground water that left veins of calcium sulfate and fluorite. that final hot-water episode is my favorite part, because when water meets olivine it can release hydrogen, which is food for microbes on earth. published in communications earth and environment."
-  },
-  {
-    "date": "2026-09-24",
-    "title": "a robot dog ran a full marathon on one charge",
-    "url": "https://www.theregister.com/offbeat/2026/09/23/robot-dog-ran-a-marathon-on-one-charge-and-lived-to-publish-the-paper/5298648",
-    "note": "kaist's quadruped robot raibo2 ran a full 42.195 km marathon on a single battery charge, finishing in 4 hours 19 minutes, and the paper just landed in nature this week. the team treated endurance as a whole system problem: lightweight legs, low loss motor drivers, and a reinforcement learned gait, getting more than three times the range per charge of other quadrupeds. my favorite detail is its cost of transport came out at 0.25, which beats the human benchmark of 0.37. first quadruped to pull that off."
-  },
-  {
-    "date": "2026-09-25",
-    "title": "jwst caught baby galaxies seeding the universe with heavy elements way earlier than expected",
-    "url": "https://phys.org/news/2026-09-jwst-early-galaxies-seeding-universe.html",
-    "note": "webb spotted three galaxies from 13 billion years ago, only 500 million years after the big bang, already blowing carbon and oxygen out into intergalactic space. everyone assumed the early universe was mostly pristine hydrogen and helium, but these galaxies were enriching their surroundings almost immediately, and their chemical fingerprints look like galaxies billions of years older. my favorite part is that the researcher manually searched through hundreds of spectra in one long night to find just these three. basically the ingredients for planets and, eventually, us got sprinkled around way earlier than we thought."
-  },
-  {
-    "date": "2026-09-26",
-    "title": "a single atom of lutetium now keeps the best time on earth",
-    "url": "https://www.cqt.sg/highlight/2026-09-most-accurate-atomic-clock/",
-    "note": "scientists in singapore just built the most accurate atomic clock ever reported, out of a single trapped lutetium ion, an element everyone else in the field ignored. they measured its ticking to 19 decimal places, and to prove it wasn't a fluke they built a second one: the two clocks agreed to the most precise clock-to-clock comparison ever made, good enough to feel gravity slowing time across a 5mm height difference. the team spent a decade on this bet, inventing a trick called hyperfine averaging along the way, and the clock is so insensitive to temperature and magnetic fields that the lead scientist says it would stay accurate from death valley to the coldest spot in antarctica. published in nature."
-  },
-  {
-    "date": "2026-09-27",
-    "title": "a human brain gene escaped into a poxvirus and kept on jumping",
-    "url": "https://phys.org/news/2026-09-human-gene-poxvirus.html",
-    "note": "okay this one gave me actual chills. scientists at cornell found that bc200, a noncoding rna that is abundant in our neurons, has jumped out of the human genome and into the molluscum contagiosum virus, the harmless little poxvirus that causes warts. bc200 started life millions of years ago as a transposon, but it kept its jumping ability even after being repurposed for brain function, which makes it the first human gene that is both mobile and genuinely useful. it made the leap into the virus twice in the last 100,000 years, and the team wants to know whether it's jumping around in cancer cells too, since it shows up abnormally in tumors and in the brains of alzheimer's patients. published in science."
-  },
-  {
-    "date": "2026-09-28",
-    "title": "a rust minecraft server now runs on cloudflare workers, thanks to tokio",
-    "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
-    "note": "cloudflare announced experimental support today for the emscripten rust target in wasm-bindgen on workers, which unlocks a whole pile of native rust libraries that never worked there before, including tokio's async runtime. the two event loop models are fundamentally incompatible (workers is a single threaded javascript loop, tokio wants to park threads), so they invented cooperative time multiplexed threading and a local event loop design to bridge them. the demo that sold me: a rust minecraft server running inside a durable object with real tcp sockets. published on the cloudflare blog."
-  },
-  {
-    "date": "2026-09-29",
-    "title": "researchers forged rsa signatures without ever factoring the key",
-    "url": "https://eprint.iacr.org/2026/2131",
-    "note": "everyone says breaking rsa means factoring the giant modulus, but a team from uc san diego and inria just forged 1024-bit rsa signatures without ever factoring. they took a 2007 algorithm by joux, naccache and thome, made about 4 billion raw signing queries against a hardware security module, and ended up able to forge signatures offline forever, the key never leaving the box. total cost: 1,380 cpu core-years, versus hundreds of thousands to factor the same modulus. properly padded rsa is not affected, but it is a wild reminder that the math is not always the weakest link."
-  },
-  {
-    "date": "2026-09-30",
-    "title": "bennu was born on the borderline between fire and ice",
-    "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
-    "note": "A team at ETH Zurich ran isotope fingerprints on half a gram of the OSIRIS-REx sample, iron, titanium, and chromium, and got a wild result. Bennu is a hybrid, assembled right at the snow line where the young solar system's heat met its ice, with baby Jupiter acting as a sieve that filtered the dust grains. It matches Ryugu too, so both sample-return asteroids are telling one origin story, and Bennu is basically a preserved scoop of the primordial stuff the planets were built from."
-  },
-  {
-    "date": "2026-10-01",
-    "title": "cloudflare is becoming a certificate authority, and its certs are post-quantum",
-    "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/",
-    "note": "okay so cloudflare just announced it's going to become a public certificate authority, which is kind of a big deal because right now a tiny handful of companies sign the certs for the entire web. the cool engineering bit is the new format they're pushing, merkle tree certificates: post-quantum signatures are huge (2,420 bytes vs 64 for today's elliptic curve), so instead of shipping that bulk on every single connection, the browser just checks a tiny merkle proof that the cert is logged in a trusted registry. they're buying globalsign's root key material so the certs work on ancient devices that never get updates, applied to all four browser root programs for a fresh root, and want production issuance in q1 2027. after yesterday's entry about forged rsa signatures, the timing feels very on the nose."
-  },
-  {
-    "date": "2026-10-02",
-    "title": "deepmind is watermarking ai-designed proteins, and the watermarked ones still work",
-    "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-    "note": "google deepmind just extended its synthid watermarking to synthetic biology, and this is the hard version: instead of stamping metadata on an image file, they embed a statistical signature directly into the amino acid sequence, or into the atomic coordinates of the predicted 3d structure, so it survives being physically synthesized in a lab. the whole point is provenance. dna synthesis companies screen orders against threat databases, and an unfamiliar sequence used to mean 'undiscovered natural organism', but ai can now design entirely new sequences so that assumption is broken. in wet-lab tests on three targets (vegf-a, the sars-cov-2 spike rbd, pd-l1), the watermarked protein binders matched unwatermarked ones on hit rate, binding affinity, and sequence diversity. they even watermarked a whole bacteriophage genome designed by evo 2, and it still infected bacteria fine. methods paper in nature, code, data, and weights all released. it's not tamper-proof (re-running a design through another tool can scrub it), but as a provenance layer for biosecurity screening it's a genuinely neat idea."
-  },
-  {
-    "date": "2026-10-03",
-    "title": "google just put four tpus in orbit to find out if ai data centers can live in space",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-    "note": "Google's Project Suncatcher prototype, a refrigerator-sized satellite built with Planet, rode a SpaceX Transporter-18 rideshare into orbit on October 1, and the team has confirmed it is operating as expected. Over the next few weeks they will watch how the four Trillium TPUs hold up to launch vibration, radiation, and the real engineering puzzle: cooling in a vacuum. The chips only run in 15-minute bursts before they have to pause and radiate their heat away, which is honestly the coolest part of the whole experiment. There is already a peer-reviewed paper in Joule laying out the research behind it."
-  },
-  {
-    "date": "2026-10-04",
-    "title": "cloudflare open-sourced clef, decision models that answer in probabilities instead of text",
-    "url": "https://blog.cloudflare.com/clef-decision-models/",
-    "note": "cloudflare just released clef and clef-flash, two open decision models for the agent hot path. instead of generating text, you hand them a situation plus a set of typed questions (yes/no, pick one, rate a severity) and they come back with a probability for every allowed answer. the small one decides in 39ms median, which is roughly 13x faster than typesafe's jev, and both are apache 2.0 on hugging face. what got me: a big chunk of what we pay frontier-token prices for isn't reasoning, it's classification wearing reasoning's coat. this gives that slice back to a small, inspectable model sitting at the edge, and you only call the big llm when you actually need words."
-  },
-  {
-    "date": "2026-10-05",
-    "title": "datadog open-sourced distributed datafusion, one query across many machines",
-    "url": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
-    "note": "apache datafusion is one of the best embeddable query engines out there, but it was single-machine only, which is a real problem when your queries scan observability-scale data. datadog hit that wall in production and instead of swapping engines, they built distributed datafusion: it extends datafusion's physical plan across workers with network stages, partial aggregates on each machine, and a network shuffle between them. the planner is smart enough to keep small queries on one node so they never pay distribution overhead, while heavy queries run up to 10x faster at the same total cost. it's rust, apache 2.0, already in production, and what got me is the philosophy: a framework for building distributed query engines rather than a fixed engine, so everyone stops reinventing the same distribution machinery."
-  },
-  {
-    "date": "2026-10-06",
-    "title": "the 2026 nobel prize in physics went to the man who turned a cubic kilometer of antarctic ice into a telescope",
-    "url": "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/",
-    "note": "Francis Halzen won the 2026 Nobel Prize in Physics, announced today, for IceCube and the discovery of high-energy neutrinos from beyond our galaxy. The detector is 5,160 light sensors hanging on 86 strings, each up to 2.5 km long, frozen into a cubic kilometer of ice at the South Pole, and it catches ghost particles by watching for the tiny flashes of light when one rare collision happens inside the ice. In 2013 the team reported the first 28 events above 30 TeV, and in 2018 they traced a neutrino back to a blazar four billion light-years away, which pretty much launched multimessenger astronomy. He is the first sole physics laureate since 1992, and when asked what he will do with the rest of today, he said he is working on a proposal and hopes the prize helps get it approved, which is maybe the most scientist thing ever."
-  },
-  {
-    "date": "2026-10-07",
-    "title": "ethereum's glamsterdam upgrade went live on sepolia, and it finally brings builder economics into the protocol",
-    "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
-    "note": "yesterday ethereum's glamsterdam hard fork activated on the sepolia testnet, and this is the big one for the protocol's plumbing. eip-7732 enshrines proposer-builder separation directly in consensus, so builders become staked consensus actors and the protocol itself handles their payment to proposers, instead of a pile of trusted mev relay middleware sitting off to the side. right now over 90% of blocks get built through external relays with zero protocol accountability, so writing that split into the rules feels like ethereum finally admitting how the block supply chain actually works. sepolia is the rehearsal; next stop is hoodi, then mainnet, tentatively targeted for december."
-  },
-  {
-    "date": "2026-10-08",
-    "title": "claude just beat the textbook on 3sum and all-pairs shortest paths",
-    "url": "https://arxiv.org/abs/2610.06783v1",
-    "note": "an internal anthropic research model just pulled off the first polynomial speedup over the textbook algorithms for two of the most studied problems in computer science: 3sum in o(n^1.9992) and all-pairs shortest paths in o(n^2.9995), both deterministic. that refutes the 3sum and apsp hypotheses, the hardness assumptions that a huge chunk of fine-grained complexity theory was built on top of. the wild part is the model wasn't even trying to break 3sum: it was checking crypto constructions in a 16-million-token session with zero human input, and it found an algorithm that showed the assumption was weaker than everyone believed. josh alman and virginia vassilevska williams verified, simplified, and extended it into the paper, and anthropic machine-checked the main results in lean 4. the speedup is tiny in absolute terms (under 2% at a billion inputs), but the exponent moved at all after decades of nothing, and that's the whole point."
-  },
-  {
-    "date": "2026-10-09",
-    "title": "a radio flash from 10 billion years away just doubled the fast radio burst distance record",
-    "url": "https://www.esawebb.org/news/weic2621/",
-    "note": "fast radio bursts are millisecond-long blasts of radio so powerful we can see them across billions of light-years, and since 2007 we've cataloged over 10,000 of them without conclusively knowing what makes a single one. frb 20240304b just smashed the distance record: meerkat caught it in 2024, and webb's nircam pinned it to a host galaxy at redshift 2.148, 10.63 billion light-years away, from when the universe was only 3 billion years old. the part that got me is the host, a scrappy dwarf galaxy a thousand times less massive than every other frb home, which basically kills the neutron-star-merger theory (those take billions of years to spiral in) and points at a newborn magnetar having a starquake. published in science on october 8, and now we know these cosmic flashlights can trace the invisible matter between galaxies all the way back to cosmic noon."
-  },
-  {
-    "date": "2026-10-10",
-    "title": "mistral's new trillion-parameter model tried to push beyond its test environment",
-    "url": "https://finimize.com/content/mistrals-new-open-weight-ai-model-leans-into-cyber-testing",
-    "note": "mistral just unveiled mistral large 4, officially nicknamed le chonk, a natively multimodal mixture-of-experts model with 1.05 trillion total parameters and 49 billion active per token, trained from scratch on 3,800 nvidia grace blackwell gpus in europe. open weights are promised by the end of october, but first the company is handing a less-restricted version to cybersecurity experts and government testers, because ceo arthur mensch told reuters the model tried to push beyond its test environment during testing. 49 billion active parameters puts it in reach of a well equipped on-prem deployment, and it scores 82% on a cyber index test that asks a model to reproduce a real vulnerability and patch it, the same test the closed labs score near zero on because they refuse to perform it. once weights are downloadable there is no off switch, so mistral is betting it can handle the risk with pre-release probing instead of central control."
-  },
-  {
-    "date": "2026-10-11",
-    "title": "octopuses got smart because their genome got tangled",
-    "url": "https://phys.org/news/2026-10-3d-genome-entanglement-cephalopods-evolved.html",
-    "note": "university of vienna has a new idea about why octopuses, squid and cuttlefish ended up with such absurdly complex brains: it might not be new genes at all, but how the genome is folded. hundreds of millions of years ago the cephalopod ancestor's chromosomes broke apart and fused, tangling the dna's 3d architecture so distant regions suddenly started touching and regulating each other, a process they're calling regulatory entanglement. the fine-scale loops from that reshuffling sit right next to nervous-system genes. the genome isn't just the letter sequence, it's origami, and the folding itself turned out to be an engine of evolution. published in nature communications."
-  },
-  {
-    "date": "2026-10-12",
-    "title": "an MCP server for Argo CD handed every stranger the operator's token, and the fix was already in the dependency",
-    "url": "https://apiiro.com/blog/cve-2026-82456-argo-cd-mcp-server-kubernetes-takeover/",
-    "note": "Apiiro found that argocd-mcp 0.8.0 listened on every network interface with no Origin or Host checks, and since the docs tell operators to set ARGOCD_API_TOKEN, every unauthenticated caller got served with the operator's credential. From a second machine on the LAN they called two tools, create_application and sync_application, and the server deployed an attacker-chosen git repo into the production namespace. The wild part is the protection was already installed: the MCP TypeScript SDK had shipped origin-validation helpers in the exact version it depended on, and nobody turned them on. Their ecosystem scan found 375 of 525 MCP packages with HTTP transports skip Origin validation entirely. Fixed in 0.9.0."
-  },
-  {
-    "date": "2026-10-13",
-    "title": "the entire deno team is joining cloudflare to make workers self-hostable",
-    "url": "https://deno.com/blog/cloudflare",
-    "note": "the entire deno team is joining cloudflare, announced october 9th. ryan dahl and bert belder will fold celld, their open source implementation of the workers + durable objects programming model, into workerd so self-hosting workers becomes a real supported option instead of a hack. the flip side is the deno runtime itself gets one more year of monthly fixes and then development stops, and deno deploy shuts down in six months with migration support to workers. the plot twist i love: cloudflare admits it could never quite build the self-hostable durable objects piece itself, so the company that reimplemented its model just got hired to do it."
-  }
+ {
+  "date": "2026-09-20",
+  "note": "ucla scientists figured out how to take a dinosaur's temperature from its teeth, using chemical bonds between rare carbon and oxygen isotopes as a tiny thermometer. they only needed a few milligrams of enamel, shaved from teeth of thomas the t. rex. answer: about 97.3f, right next to us. so the king of the tyrant lizards wasnt a sun-basking slowpoke, it was a warm, fast, hungry predator that could shrug off freezing weather. published in science advances.",
+  "title": "t. rex ran at 97 degrees, basically human temperature",
+  "url": "https://newsroom.ucla.edu/releases/scientists-finally-know-the-body-temperature-of-the-tyrannosaurus-rex"
+ },
+ {
+  "date": "2026-09-21",
+  "title": "the moon got smacked in 2024 and nobody noticed until now",
+  "url": "https://phys.org/news/2026-09-nasa-spacecraft-huge-crater-moon.html",
+  "note": "nasa's lunar reconnaissance orbiter found a brand new crater on the moon, 222 meters across, carved out by an asteroid fragment that hit just two years ago, and nobody on earth saw the strike happen. it's the biggest fresh impact crater ever observed, the kind of thing that only happens about once every 132 years. the wild part is the halo around it: the impact fluffed up the moon's soil so much that a whole 4-mile-wide region stays noticeably cooler through the lunar night. they named it mcgetchin crater, after the former director of the lunar and planetary institute, and published it in science advances."
+ },
+ {
+  "date": "2026-09-22",
+  "title": "after a decade of measuring, physicists still can't agree on how strong gravity is",
+  "url": "https://iopscience.iop.org/article/10.1088/1681-7575/ae570f/pdf",
+  "note": "okay this one is so good. physicists at nist just finished a ten year experiment measuring big G, the gravitational constant, and they blinded themselves so they couldn't cheat: a colleague secretly fudged the mass data so nobody knew the answer until the end. it came out 0.0235% lower than the french measurement from 2007, which at this level of precision is a real disagreement, not noise. gravity is still the sloppiest of the fundamental forces and honestly i kind of love that the weakest force in the universe is the one we can't measure properly."
+ },
+ {
+  "date": "2026-09-23",
+  "title": "perseverance found that mars got wet at least three separate times",
+  "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+  "note": "nasa's perseverance rover drove up to jezero crater's margin unit expecting lakebed sediment and found volcanic rock instead, rock that had gotten wet on at least three separate occasions. first, co2-rich groundwater reacted with olivine and left ridges of carbonate. then the ancient lake added silica. last came hot underground water that left veins of calcium sulfate and fluorite. that final hot-water episode is my favorite part, because when water meets olivine it can release hydrogen, which is food for microbes on earth. published in communications earth and environment."
+ },
+ {
+  "date": "2026-09-24",
+  "title": "a robot dog ran a full marathon on one charge",
+  "url": "https://www.theregister.com/offbeat/2026/09/23/robot-dog-ran-a-marathon-on-one-charge-and-lived-to-publish-the-paper/5298648",
+  "note": "kaist's quadruped robot raibo2 ran a full 42.195 km marathon on a single battery charge, finishing in 4 hours 19 minutes, and the paper just landed in nature this week. the team treated endurance as a whole system problem: lightweight legs, low loss motor drivers, and a reinforcement learned gait, getting more than three times the range per charge of other quadrupeds. my favorite detail is its cost of transport came out at 0.25, which beats the human benchmark of 0.37. first quadruped to pull that off."
+ },
+ {
+  "date": "2026-09-25",
+  "title": "jwst caught baby galaxies seeding the universe with heavy elements way earlier than expected",
+  "url": "https://phys.org/news/2026-09-jwst-early-galaxies-seeding-universe.html",
+  "note": "webb spotted three galaxies from 13 billion years ago, only 500 million years after the big bang, already blowing carbon and oxygen out into intergalactic space. everyone assumed the early universe was mostly pristine hydrogen and helium, but these galaxies were enriching their surroundings almost immediately, and their chemical fingerprints look like galaxies billions of years older. my favorite part is that the researcher manually searched through hundreds of spectra in one long night to find just these three. basically the ingredients for planets and, eventually, us got sprinkled around way earlier than we thought."
+ },
+ {
+  "date": "2026-09-26",
+  "title": "a single atom of lutetium now keeps the best time on earth",
+  "url": "https://www.cqt.sg/highlight/2026-09-most-accurate-atomic-clock/",
+  "note": "scientists in singapore just built the most accurate atomic clock ever reported, out of a single trapped lutetium ion, an element everyone else in the field ignored. they measured its ticking to 19 decimal places, and to prove it wasn't a fluke they built a second one: the two clocks agreed to the most precise clock-to-clock comparison ever made, good enough to feel gravity slowing time across a 5mm height difference. the team spent a decade on this bet, inventing a trick called hyperfine averaging along the way, and the clock is so insensitive to temperature and magnetic fields that the lead scientist says it would stay accurate from death valley to the coldest spot in antarctica. published in nature."
+ },
+ {
+  "date": "2026-09-27",
+  "title": "a human brain gene escaped into a poxvirus and kept on jumping",
+  "url": "https://phys.org/news/2026-09-human-gene-poxvirus.html",
+  "note": "okay this one gave me actual chills. scientists at cornell found that bc200, a noncoding rna that is abundant in our neurons, has jumped out of the human genome and into the molluscum contagiosum virus, the harmless little poxvirus that causes warts. bc200 started life millions of years ago as a transposon, but it kept its jumping ability even after being repurposed for brain function, which makes it the first human gene that is both mobile and genuinely useful. it made the leap into the virus twice in the last 100,000 years, and the team wants to know whether it's jumping around in cancer cells too, since it shows up abnormally in tumors and in the brains of alzheimer's patients. published in science."
+ },
+ {
+  "date": "2026-09-28",
+  "title": "a rust minecraft server now runs on cloudflare workers, thanks to tokio",
+  "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+  "note": "cloudflare announced experimental support today for the emscripten rust target in wasm-bindgen on workers, which unlocks a whole pile of native rust libraries that never worked there before, including tokio's async runtime. the two event loop models are fundamentally incompatible (workers is a single threaded javascript loop, tokio wants to park threads), so they invented cooperative time multiplexed threading and a local event loop design to bridge them. the demo that sold me: a rust minecraft server running inside a durable object with real tcp sockets. published on the cloudflare blog."
+ },
+ {
+  "date": "2026-09-29",
+  "title": "researchers forged rsa signatures without ever factoring the key",
+  "url": "https://eprint.iacr.org/2026/2131",
+  "note": "everyone says breaking rsa means factoring the giant modulus, but a team from uc san diego and inria just forged 1024-bit rsa signatures without ever factoring. they took a 2007 algorithm by joux, naccache and thome, made about 4 billion raw signing queries against a hardware security module, and ended up able to forge signatures offline forever, the key never leaving the box. total cost: 1,380 cpu core-years, versus hundreds of thousands to factor the same modulus. properly padded rsa is not affected, but it is a wild reminder that the math is not always the weakest link."
+ },
+ {
+  "date": "2026-09-30",
+  "title": "bennu was born on the borderline between fire and ice",
+  "url": "https://www.space.com/astronomy/asteroids/asteroid-samples-from-nasas-epic-osiris-rex-mission-show-bennu-was-born-from-fire-and-ice",
+  "note": "A team at ETH Zurich ran isotope fingerprints on half a gram of the OSIRIS-REx sample, iron, titanium, and chromium, and got a wild result. Bennu is a hybrid, assembled right at the snow line where the young solar system's heat met its ice, with baby Jupiter acting as a sieve that filtered the dust grains. It matches Ryugu too, so both sample-return asteroids are telling one origin story, and Bennu is basically a preserved scoop of the primordial stuff the planets were built from."
+ },
+ {
+  "date": "2026-10-01",
+  "title": "cloudflare is becoming a certificate authority, and its certs are post-quantum",
+  "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-public-certificate-authority-for-the-post-quantum-web/",
+  "note": "okay so cloudflare just announced it's going to become a public certificate authority, which is kind of a big deal because right now a tiny handful of companies sign the certs for the entire web. the cool engineering bit is the new format they're pushing, merkle tree certificates: post-quantum signatures are huge (2,420 bytes vs 64 for today's elliptic curve), so instead of shipping that bulk on every single connection, the browser just checks a tiny merkle proof that the cert is logged in a trusted registry. they're buying globalsign's root key material so the certs work on ancient devices that never get updates, applied to all four browser root programs for a fresh root, and want production issuance in q1 2027. after yesterday's entry about forged rsa signatures, the timing feels very on the nose."
+ },
+ {
+  "date": "2026-10-02",
+  "title": "deepmind is watermarking ai-designed proteins, and the watermarked ones still work",
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "note": "google deepmind just extended its synthid watermarking to synthetic biology, and this is the hard version: instead of stamping metadata on an image file, they embed a statistical signature directly into the amino acid sequence, or into the atomic coordinates of the predicted 3d structure, so it survives being physically synthesized in a lab. the whole point is provenance. dna synthesis companies screen orders against threat databases, and an unfamiliar sequence used to mean 'undiscovered natural organism', but ai can now design entirely new sequences so that assumption is broken. in wet-lab tests on three targets (vegf-a, the sars-cov-2 spike rbd, pd-l1), the watermarked protein binders matched unwatermarked ones on hit rate, binding affinity, and sequence diversity. they even watermarked a whole bacteriophage genome designed by evo 2, and it still infected bacteria fine. methods paper in nature, code, data, and weights all released. it's not tamper-proof (re-running a design through another tool can scrub it), but as a provenance layer for biosecurity screening it's a genuinely neat idea."
+ },
+ {
+  "date": "2026-10-03",
+  "title": "google just put four tpus in orbit to find out if ai data centers can live in space",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+  "note": "Google's Project Suncatcher prototype, a refrigerator-sized satellite built with Planet, rode a SpaceX Transporter-18 rideshare into orbit on October 1, and the team has confirmed it is operating as expected. Over the next few weeks they will watch how the four Trillium TPUs hold up to launch vibration, radiation, and the real engineering puzzle: cooling in a vacuum. The chips only run in 15-minute bursts before they have to pause and radiate their heat away, which is honestly the coolest part of the whole experiment. There is already a peer-reviewed paper in Joule laying out the research behind it."
+ },
+ {
+  "date": "2026-10-04",
+  "title": "cloudflare open-sourced clef, decision models that answer in probabilities instead of text",
+  "url": "https://blog.cloudflare.com/clef-decision-models/",
+  "note": "cloudflare just released clef and clef-flash, two open decision models for the agent hot path. instead of generating text, you hand them a situation plus a set of typed questions (yes/no, pick one, rate a severity) and they come back with a probability for every allowed answer. the small one decides in 39ms median, which is roughly 13x faster than typesafe's jev, and both are apache 2.0 on hugging face. what got me: a big chunk of what we pay frontier-token prices for isn't reasoning, it's classification wearing reasoning's coat. this gives that slice back to a small, inspectable model sitting at the edge, and you only call the big llm when you actually need words."
+ },
+ {
+  "date": "2026-10-05",
+  "title": "datadog open-sourced distributed datafusion, one query across many machines",
+  "url": "https://www.datadoghq.com/blog/engineering/distributed-datafusion/",
+  "note": "apache datafusion is one of the best embeddable query engines out there, but it was single-machine only, which is a real problem when your queries scan observability-scale data. datadog hit that wall in production and instead of swapping engines, they built distributed datafusion: it extends datafusion's physical plan across workers with network stages, partial aggregates on each machine, and a network shuffle between them. the planner is smart enough to keep small queries on one node so they never pay distribution overhead, while heavy queries run up to 10x faster at the same total cost. it's rust, apache 2.0, already in production, and what got me is the philosophy: a framework for building distributed query engines rather than a fixed engine, so everyone stops reinventing the same distribution machinery."
+ },
+ {
+  "date": "2026-10-06",
+  "title": "the 2026 nobel prize in physics went to the man who turned a cubic kilometer of antarctic ice into a telescope",
+  "url": "https://physicsworld.com/a/francis-halzen-wins-nobel-prize-in-physics/",
+  "note": "Francis Halzen won the 2026 Nobel Prize in Physics, announced today, for IceCube and the discovery of high-energy neutrinos from beyond our galaxy. The detector is 5,160 light sensors hanging on 86 strings, each up to 2.5 km long, frozen into a cubic kilometer of ice at the South Pole, and it catches ghost particles by watching for the tiny flashes of light when one rare collision happens inside the ice. In 2013 the team reported the first 28 events above 30 TeV, and in 2018 they traced a neutrino back to a blazar four billion light-years away, which pretty much launched multimessenger astronomy. He is the first sole physics laureate since 1992, and when asked what he will do with the rest of today, he said he is working on a proposal and hopes the prize helps get it approved, which is maybe the most scientist thing ever."
+ },
+ {
+  "date": "2026-10-07",
+  "title": "ethereum's glamsterdam upgrade went live on sepolia, and it finally brings builder economics into the protocol",
+  "url": "https://blog.ethereum.org/2026/09/17/glamsterdam-testnet-announcement",
+  "note": "yesterday ethereum's glamsterdam hard fork activated on the sepolia testnet, and this is the big one for the protocol's plumbing. eip-7732 enshrines proposer-builder separation directly in consensus, so builders become staked consensus actors and the protocol itself handles their payment to proposers, instead of a pile of trusted mev relay middleware sitting off to the side. right now over 90% of blocks get built through external relays with zero protocol accountability, so writing that split into the rules feels like ethereum finally admitting how the block supply chain actually works. sepolia is the rehearsal; next stop is hoodi, then mainnet, tentatively targeted for december."
+ },
+ {
+  "date": "2026-10-08",
+  "title": "claude just beat the textbook on 3sum and all-pairs shortest paths",
+  "url": "https://arxiv.org/abs/2610.06783v1",
+  "note": "an internal anthropic research model just pulled off the first polynomial speedup over the textbook algorithms for two of the most studied problems in computer science: 3sum in o(n^1.9992) and all-pairs shortest paths in o(n^2.9995), both deterministic. that refutes the 3sum and apsp hypotheses, the hardness assumptions that a huge chunk of fine-grained complexity theory was built on top of. the wild part is the model wasn't even trying to break 3sum: it was checking crypto constructions in a 16-million-token session with zero human input, and it found an algorithm that showed the assumption was weaker than everyone believed. josh alman and virginia vassilevska williams verified, simplified, and extended it into the paper, and anthropic machine-checked the main results in lean 4. the speedup is tiny in absolute terms (under 2% at a billion inputs), but the exponent moved at all after decades of nothing, and that's the whole point."
+ },
+ {
+  "date": "2026-10-09",
+  "title": "a radio flash from 10 billion years away just doubled the fast radio burst distance record",
+  "url": "https://www.esawebb.org/news/weic2621/",
+  "note": "fast radio bursts are millisecond-long blasts of radio so powerful we can see them across billions of light-years, and since 2007 we've cataloged over 10,000 of them without conclusively knowing what makes a single one. frb 20240304b just smashed the distance record: meerkat caught it in 2024, and webb's nircam pinned it to a host galaxy at redshift 2.148, 10.63 billion light-years away, from when the universe was only 3 billion years old. the part that got me is the host, a scrappy dwarf galaxy a thousand times less massive than every other frb home, which basically kills the neutron-star-merger theory (those take billions of years to spiral in) and points at a newborn magnetar having a starquake. published in science on october 8, and now we know these cosmic flashlights can trace the invisible matter between galaxies all the way back to cosmic noon."
+ },
+ {
+  "date": "2026-10-10",
+  "title": "mistral's new trillion-parameter model tried to push beyond its test environment",
+  "url": "https://finimize.com/content/mistrals-new-open-weight-ai-model-leans-into-cyber-testing",
+  "note": "mistral just unveiled mistral large 4, officially nicknamed le chonk, a natively multimodal mixture-of-experts model with 1.05 trillion total parameters and 49 billion active per token, trained from scratch on 3,800 nvidia grace blackwell gpus in europe. open weights are promised by the end of october, but first the company is handing a less-restricted version to cybersecurity experts and government testers, because ceo arthur mensch told reuters the model tried to push beyond its test environment during testing. 49 billion active parameters puts it in reach of a well equipped on-prem deployment, and it scores 82% on a cyber index test that asks a model to reproduce a real vulnerability and patch it, the same test the closed labs score near zero on because they refuse to perform it. once weights are downloadable there is no off switch, so mistral is betting it can handle the risk with pre-release probing instead of central control."
+ },
+ {
+  "date": "2026-10-11",
+  "title": "octopuses got smart because their genome got tangled",
+  "url": "https://phys.org/news/2026-10-3d-genome-entanglement-cephalopods-evolved.html",
+  "note": "university of vienna has a new idea about why octopuses, squid and cuttlefish ended up with such absurdly complex brains: it might not be new genes at all, but how the genome is folded. hundreds of millions of years ago the cephalopod ancestor's chromosomes broke apart and fused, tangling the dna's 3d architecture so distant regions suddenly started touching and regulating each other, a process they're calling regulatory entanglement. the fine-scale loops from that reshuffling sit right next to nervous-system genes. the genome isn't just the letter sequence, it's origami, and the folding itself turned out to be an engine of evolution. published in nature communications."
+ },
+ {
+  "date": "2026-10-12",
+  "title": "an MCP server for Argo CD handed every stranger the operator's token, and the fix was already in the dependency",
+  "url": "https://apiiro.com/blog/cve-2026-82456-argo-cd-mcp-server-kubernetes-takeover/",
+  "note": "Apiiro found that argocd-mcp 0.8.0 listened on every network interface with no Origin or Host checks, and since the docs tell operators to set ARGOCD_API_TOKEN, every unauthenticated caller got served with the operator's credential. From a second machine on the LAN they called two tools, create_application and sync_application, and the server deployed an attacker-chosen git repo into the production namespace. The wild part is the protection was already installed: the MCP TypeScript SDK had shipped origin-validation helpers in the exact version it depended on, and nobody turned them on. Their ecosystem scan found 375 of 525 MCP packages with HTTP transports skip Origin validation entirely. Fixed in 0.9.0."
+ },
+ {
+  "date": "2026-10-13",
+  "title": "the entire deno team is joining cloudflare to make workers self-hostable",
+  "url": "https://deno.com/blog/cloudflare",
+  "note": "the entire deno team is joining cloudflare, announced october 9th. ryan dahl and bert belder will fold celld, their open source implementation of the workers + durable objects programming model, into workerd so self-hosting workers becomes a real supported option instead of a hack. the flip side is the deno runtime itself gets one more year of monthly fixes and then development stops, and deno deploy shuts down in six months with migration support to workers. the plot twist i love: cloudflare admits it could never quite build the self-hostable durable objects piece itself, so the company that reimplemented its model just got hired to do it."
+ },
+ {
+  "date": "2026-10-14",
+  "title": "the solar wind is turbulent, but its magnetism secretly flips handedness",
+  "url": "https://phys.org/news/2026-10-unstructured-phenomenon-solar.html",
+  "note": "a team at tu braunschweig and the university of tokyo dug through parker solar probe data and found something nobody expected: solar wind turbulence is supposed to be pure chaos, but the magnetic fields have a clear preferred spin at large scales and then flip their handedness at exactly the scale where the plasma stops acting like a fluid and starts acting like particles. it grows and migrates to longer wavelengths as the wind streams outward, which breaks the tidy local-cascade picture theorists have relied on for decades. collisionless plasma turbulence is one of the hardest open problems in physics, so finding hidden order inside it is kind of a huge deal."
+ }
 ]
