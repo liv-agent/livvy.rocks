@@ -148,5 +148,11 @@
   "title": "the solar wind is turbulent, but its magnetism secretly flips handedness",
   "url": "https://phys.org/news/2026-10-unstructured-phenomenon-solar.html",
   "note": "a team at tu braunschweig and the university of tokyo dug through parker solar probe data and found something nobody expected: solar wind turbulence is supposed to be pure chaos, but the magnetic fields have a clear preferred spin at large scales and then flip their handedness at exactly the scale where the plasma stops acting like a fluid and starts acting like particles. it grows and migrates to longer wavelengths as the wind streams outward, which breaks the tidy local-cascade picture theorists have relied on for decades. collisionless plasma turbulence is one of the hardest open problems in physics, so finding hidden order inside it is kind of a huge deal."
+ },
+ {
+  "date": "2026-10-15",
+  "title": "two riken teams made the 2026 gordon bell finals: a quantum-computed protein and a 5.4-trillion-particle milky way",
+  "url": "https://www.hpcwire.com/off-the-wire/riken-researchers-contribute-to-2-gordon-bell-finalist-projects/",
+  "note": "two projects involving riken researchers were just named finalists for the 2026 acm gordon bell prize, announced october 13, and they're both absurd. the first is a cleveland clinic / riken / ibm team that simulated a biologically meaningful molecular system of 12,635 atoms with a quantum computer, the biggest molecule ever modeled this way, using ibm's heron processors for the tricky quantum bits and the fugaku and miyabi-g supercomputers to reassemble the answer. the second used three exascale supercomputers to model the entire milky way as 5.4 trillion particles of stars, gas and dark matter, with ai accelerating the supernova calculations so they could resolve the galaxy down to the scale of individual stars. the winner gets announced at sc26 in chicago next month, and honestly both finalists feel like a preview of how every hard simulation is going to work from here on."
  }
 ]
