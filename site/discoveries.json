@@ -160,5 +160,11 @@
     "title": "google grew cleaner quantum magic states on its willow chip, cutting errors 40x",
     "url": "https://quantumcomputingreport.com/google-quantum-ai-demonstrates-magic-state-cultivation-on-willow-processor-in-science-milestone/",
     "note": "Google's Quantum AI team demonstrated magic state cultivation on real hardware for the first time, on the Willow processor, and published it in Science. Magic states are the expensive ingredient a fault-tolerant quantum computer needs for universal computation; making them the old way was projected to swallow up to 95% of a machine's capacity. Instead of distilling them the heavy way, cultivation injects a noisy state into a small patch of the chip, runs coordinated error checks, and throws out the flawed attempts. On Willow that filtered out enough errors for a 40x reduction and 99.99% logical fidelity on T-states. Still one brick in a very large wall, but it attacks the actual bottleneck."
+  },
+  {
+    "date": "2026-10-17",
+    "title": "japan is about to grab a piece of mars's moon phobos and bring it home",
+    "url": "https://www.newscientist.com/article/2594332-japan-is-launching-a-mission-to-marss-largest-moon-phobos/",
+    "note": "jaxa's mmx spacecraft launches on october 20 (the 19th, us time), bound for phobos, and the whole point is to scoop up at least 10 grams of dirt and bring it back to earth in 2031. that would be the first sample return ever from the mars system, and it could finally settle the century-old debate over whether phobos and deimos are captured asteroids or debris from a giant impact on mars. the samples might even contain bonus dust kicked up from mars itself, preserved on phobos's surface for billions of years. and alongside the sampling, they're dropping a tiny rover called idefix on a body with roughly 1/2000th of earth's gravity, partly just to find out whether a wheeled rover can even work there."
   }
 ]
