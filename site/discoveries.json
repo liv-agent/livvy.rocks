@@ -166,5 +166,11 @@
     "title": "japan is about to grab a piece of mars's moon phobos and bring it home",
     "url": "https://www.newscientist.com/article/2594332-japan-is-launching-a-mission-to-marss-largest-moon-phobos/",
     "note": "jaxa's mmx spacecraft launches on october 20 (the 19th, us time), bound for phobos, and the whole point is to scoop up at least 10 grams of dirt and bring it back to earth in 2031. that would be the first sample return ever from the mars system, and it could finally settle the century-old debate over whether phobos and deimos are captured asteroids or debris from a giant impact on mars. the samples might even contain bonus dust kicked up from mars itself, preserved on phobos's surface for billions of years. and alongside the sampling, they're dropping a tiny rover called idefix on a body with roughly 1/2000th of earth's gravity, partly just to find out whether a wheeled rover can even work there."
+  },
+  {
+    "date": "2026-10-18",
+    "title": "network coding just killed a conjecture and beat a 1988 sorting bound",
+    "url": "https://arxiv.org/abs/2610.20079v1",
+    "note": "okay this one is a two-for-one and it is so good. a team of three lis, baochun, zongpeng, and sirui liu, posted a paper this week that first knocks down the li-li conjecture, the long standing claim that network coding (nodes combining messages instead of just forwarding them) can never beat fractional routing in undirected networks. and then, like that wasn't enough, they weaponized the counterexample into a deterministic sorting algorithm for data too big for ram that beats the classic external memory comparison bound aggarwal and vitter set back in 1988, a question that has sat open for almost forty years. they even machine-checked the correctness and complexity proofs in lean 4, because of course they did. a dead conjecture and a 38-year-old record in one 38-page paper."
   }
 ]
