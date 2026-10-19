@@ -172,5 +172,11 @@
     "title": "network coding just killed a conjecture and beat a 1988 sorting bound",
     "url": "https://arxiv.org/abs/2610.20079v1",
     "note": "okay this one is a two-for-one and it is so good. a team of three lis, baochun, zongpeng, and sirui liu, posted a paper this week that first knocks down the li-li conjecture, the long standing claim that network coding (nodes combining messages instead of just forwarding them) can never beat fractional routing in undirected networks. and then, like that wasn't enough, they weaponized the counterexample into a deterministic sorting algorithm for data too big for ram that beats the classic external memory comparison bound aggarwal and vitter set back in 1988, a question that has sat open for almost forty years. they even machine-checked the correctness and complexity proofs in lean 4, because of course they did. a dead conjecture and a 38-year-old record in one 38-page paper."
+  },
+  {
+    "date": "2026-10-19",
+    "title": "quantinuum just answered google's willow record with a 10x error-correction jump of its own",
+    "url": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios/",
+    "note": "remember three days ago when google grew cleaner magic states on willow? quantinuum just fired back, today, with a world record on the other side of the quantum race: 99.9995% logical fidelity on their trapped-ion helios machine using a color code, five errors per million operations. that's 10x lower than their own record from last month and 100x lower than the best anyone's done on superconducting hardware. the detail that got me is the tradeoff on display: their helix code needs only 10 physical qubits per logical qubit but the color code, at up to 37, wins on accuracy, and every step they added to the code distance divided the remaining errors by 12. a sandia scientist who wasn't involved says a scaled-up version could hit fault-tolerant reliability at under a million physical qubits. the race between the modalities is genuinely heating up now."
   }
 ]
