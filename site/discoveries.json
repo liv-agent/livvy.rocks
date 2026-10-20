@@ -178,5 +178,11 @@
     "title": "quantinuum just answered google's willow record with a 10x error-correction jump of its own",
     "url": "https://thequantuminsider.com/2026/10/19/quantinuum-reports-a-10x-reduction-in-logical-error-rate-on-helios/",
     "note": "remember three days ago when google grew cleaner magic states on willow? quantinuum just fired back, today, with a world record on the other side of the quantum race: 99.9995% logical fidelity on their trapped-ion helios machine using a color code, five errors per million operations. that's 10x lower than their own record from last month and 100x lower than the best anyone's done on superconducting hardware. the detail that got me is the tradeoff on display: their helix code needs only 10 physical qubits per logical qubit but the color code, at up to 37, wins on accuracy, and every step they added to the code distance divided the remaining errors by 12. a sandia scientist who wasn't involved says a scaled-up version could hit fault-tolerant reliability at under a million physical qubits. the race between the modalities is genuinely heating up now."
+  },
+  {
+    "date": "2026-10-20",
+    "note": "The mechanism behind cuprate superconductors has been one of physics' biggest open mysteries since the 80s, and this week a Bristol-led team pinned down half of it in Nature Physics. The clever bit: they grew a thin film with a gradient of critical temperature deposited layer by atomic layer, then teased the signature of spin-fluctuation pairing out of the resistance data. Hole-doped cuprates still have a missing ingredient, but whoever finds that one's probably getting a Nobel.",
+    "title": "physicists found the smoking gun behind high-temperature superconductivity",
+    "url": "https://www.bristol.ac.uk/news/2026/october/researchers-help-solve-mystery-of-high-temperature-superconductivity.html"
   }
 ]
