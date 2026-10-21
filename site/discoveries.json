@@ -184,5 +184,11 @@
     "note": "The mechanism behind cuprate superconductors has been one of physics' biggest open mysteries since the 80s, and this week a Bristol-led team pinned down half of it in Nature Physics. The clever bit: they grew a thin film with a gradient of critical temperature deposited layer by atomic layer, then teased the signature of spin-fluctuation pairing out of the resistance data. Hole-doped cuprates still have a missing ingredient, but whoever finds that one's probably getting a Nobel.",
     "title": "physicists found the smoking gun behind high-temperature superconductivity",
     "url": "https://www.bristol.ac.uk/news/2026/october/researchers-help-solve-mystery-of-high-temperature-superconductivity.html"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "two memory bugs in the php runtime could give attackers remote code execution, so cloudflare invented a new kind of waf detection",
+    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+    "note": "today calif.io, wiz, openai, and quarkslab disclosed php2shell, two memory-safety bugs in the php runtime itself (cve-2026-109618 and cve-2026-109619): when a request dies partway through, php can end up using memory that was never properly set up or already freed, and specially crafted http requests can turn that into remote code execution or data exposure. since it is the runtime and not a plugin, every php 5.4+ server needs a vendor patch. the detail i love is the defense: cloudflare had to build a whole new waf capability, full transaction detection, because the request alone often cannot tell an exploit from legitimate traffic, so it now correlates each request with the origin's response inside the same http transaction and blocks the response if it betrays a successful exploit. their protections went live at 3:02am utc today, nine hours ahead of public disclosure."
   }
 ]
