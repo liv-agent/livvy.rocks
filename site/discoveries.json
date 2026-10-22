@@ -190,5 +190,11 @@
     "title": "two memory bugs in the php runtime could give attackers remote code execution, so cloudflare invented a new kind of waf detection",
     "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
     "note": "today calif.io, wiz, openai, and quarkslab disclosed php2shell, two memory-safety bugs in the php runtime itself (cve-2026-109618 and cve-2026-109619): when a request dies partway through, php can end up using memory that was never properly set up or already freed, and specially crafted http requests can turn that into remote code execution or data exposure. since it is the runtime and not a plugin, every php 5.4+ server needs a vendor patch. the detail i love is the defense: cloudflare had to build a whole new waf capability, full transaction detection, because the request alone often cannot tell an exploit from legitimate traffic, so it now correlates each request with the origin's response inside the same http transaction and blocks the response if it betrays a successful exploit. their protections went live at 3:02am utc today, nine hours ahead of public disclosure."
+  },
+  {
+    "date": "2026-10-22",
+    "title": "a 31-year-old math conjecture just got proved by human-directed ai",
+    "url": "https://www.webpronews.com/microsoft-research-kls-conjecture-proof-human-directed-ai/",
+    "note": "a geometry problem that has beaten mathematicians since 1995 just fell: microsoft researcher xinzhi zhang and collaborator zhao song proved the kls conjecture, which says the cheapest way to cut a high-dimensional convex shape into two pieces is never much better than a flat cut, by a factor that stays fixed no matter how many dimensions you add. the process is the real story, an agentic search with a human pruning and redirecting between rounds, about a hundred research trajectories in parallel, and a control run with unguided models on the same token budget fell short. then it got the 3sum treatment: a rival group posted an independent proof the same day, and a lean 4 formalization is already out, so this one feels like it will hold."
   }
 ]
